@@ -2,13 +2,11 @@
 - hosts: Leaf6A
   connection: network_cli
   gather_facts: no
-  collections:
-     - dellemc.os9
-  tasks:
-  - name: "CreateVlan"
-           vlan 100:
-           description: "Blue"
-           state: present
+     
+  dellos_vlan:
+        vlan 999:
+          name: "Ansible"
+          description: "AnsibleAWX"
          
          
 #        - command: do copy running-config startup-config
