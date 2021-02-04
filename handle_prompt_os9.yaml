@@ -7,9 +7,10 @@
   - name: "Copy running-config to startup-config for the Dell EMC OS9 Device"
     dellos9_config:
       commands:  
-        - command: do copy running-config startup-config
-          prompt: '\[confirm yes/no\]:\s?$'
-          answer: "no"
-    register: handle_prompt
+      - command: show running-config
+#        - command: do copy running-config startup-config
+#          prompt: '\[confirm yes/no\]:\s?$'
+#          answer: "no"
+#    register: handle_prompt
 
-  - debug: var=handle_prompt
+#  - debug: var=handle_prompt
