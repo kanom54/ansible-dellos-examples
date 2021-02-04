@@ -8,9 +8,9 @@
     dellos9_config:
       commands:  
       - command:
-         config
-         interface vlan 9993
-         end
+        - config
+        - interface vlan 9993
+        - end
          
          
 #        - command: do copy running-config startup-config
