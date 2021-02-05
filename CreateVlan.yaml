@@ -7,8 +7,9 @@
   - name: "Get Dell EMC OS9 Show version"
     dellos9_command:
       commands: 
-         - show version
-         - show interfaces
+         - config
+         - interface vlan 999
+         - end
          
  #   register: show_ver
  
