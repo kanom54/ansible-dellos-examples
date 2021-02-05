@@ -1,13 +1,9 @@
 ---
- - hosts: leaf6a
-   connection: network_cli
-   gather_facts: no
+- hosts: leaf6a
+  connection: local
+  gather_facts: no
 
-   tasks:
-    - name: backup dellOs9
-      dellos9_config:
-          backup: true
-          commands: ['do show run']
-          timeout: 120
-          backup_options:
-               dir_path: /home/ansible/ColoBackup
+  tasks:
+  - name: "Get Dell EMC OS9 Show version"
+    dellos9_command:
+      commands: ['show running-config']
