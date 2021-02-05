@@ -3,9 +3,10 @@
   connection: network_cli
   gather_facts: no
   
-  
-- task:  
-- os9_config:
+   
+  tasks:  
+ - name: "create vlan"
+   os9_config:
     lines:
      - config
      - interface vlan 999
