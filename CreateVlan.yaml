@@ -6,8 +6,7 @@
   tasks:
   - name: "Create Vlan"
     dellos9_config:
-      lines: 
-         - configure
+      lines:
          - interface vlan 999
          - end
          
