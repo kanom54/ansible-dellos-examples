@@ -14,5 +14,5 @@
 #         auth_pass: 4dm1nC0nf
 #          authorize: yes
           timeout: 120
-          backup_options:
-               dir_path: /home/ansible/ColoBackup
+#          backup_options:
+#               dir_path: /home/ansible/ColoBackup
