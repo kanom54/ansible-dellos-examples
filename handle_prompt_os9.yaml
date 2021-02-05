@@ -8,11 +8,3 @@
     - name: "create vlan"
       dellos9_command:
         commands: ['show version']
-         
-         
-#        - command: do copy running-config startup-config
-#          prompt: '\[confirm yes/no\]:\s?$'
-#          answer: "no"
-#    register: handle_prompt
-
-#  - debug: var=handle_prompt
