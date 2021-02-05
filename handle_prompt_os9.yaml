@@ -7,10 +7,11 @@
   tasks:  
     - name: "create vlan"
       dellos9_config:
-         lines:
-           - config
-           - interface vlan 999
-           - end
+         commands:
+         - lines:
+            - config
+            - interface vlan 999
+            - end
          
          
 #        - command: do copy running-config startup-config
