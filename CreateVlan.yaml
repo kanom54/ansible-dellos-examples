@@ -4,9 +4,9 @@
   gather_facts: no
 
   tasks:
-  - name: "Get Dell EMC OS9 Show version"
-    dellos9_command:
-      commands: 
+  - name: "Create Vlan"
+    dellos9_config:
+      lines: 
          - config
          - interface vlan 999
          - end
