@@ -1,5 +1,5 @@
 ---
-- hosts: Leaf6A
+- hosts: dellos9
   connection: network_cli
   gather_facts: no
 
