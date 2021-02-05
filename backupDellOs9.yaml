@@ -7,3 +7,6 @@
   - name: "Get Dell EMC OS9 Show version"
     dellos9_command:
       commands: ['show running-config']
+   register: show_ver
+
+  - debug: var=show_ver
