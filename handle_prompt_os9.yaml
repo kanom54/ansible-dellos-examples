@@ -8,9 +8,9 @@
     - name: "create vlan"
       dellos9_config:
          lines:
-         - config
-         - interface vlan 999
-         - end
+           - config
+           - interface vlan 999
+           - end
          
          
 #        - command: do copy running-config startup-config
