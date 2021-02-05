@@ -15,4 +15,4 @@
 #          authorize: yes
           timeout: 120
           backup_options:
-               dir_path: /home/ansible/etc/ansible/backup/ColoBackup
+               dir_path: /home/ansible/ColoBackup
