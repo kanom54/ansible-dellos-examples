@@ -2,9 +2,8 @@
 - hosts: Leaf6A
   connection: network_cli
   gather_facts: no
-  
-   
-  tasks:  
-    - name: "create vlan"
-      dellos9_command:
-        commands: ['show version']
+
+  tasks:
+  - name: "Get Dell EMC OS9 Show version"
+    dellos9_command:
+      commands: ['show version']
