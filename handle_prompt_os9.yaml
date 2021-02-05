@@ -6,7 +6,7 @@
    
   tasks:  
     - name: "create vlan"
-      os9_config:
+      dellos9_config:
          lines:
          - config
          - interface vlan 999
