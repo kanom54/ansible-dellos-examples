@@ -6,7 +6,7 @@
    
   tasks:  
     - name: "create vlan"
-      dellos9_config:
+      dellos9_command:
         commands: ['show version']
          
          
