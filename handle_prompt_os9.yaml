@@ -2,11 +2,13 @@
 - hosts: Leaf6A
   connection: network_cli
   gather_facts: no
+  
      
-  dellos_vlan:
-        vlan 999:
-          name: "Ansible"
-          description: "AnsibleAWX"
+- os9_config:
+    lines:
+     - config
+     - interface vlan 999
+     - end
          
          
 #        - command: do copy running-config startup-config
