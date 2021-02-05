@@ -1,6 +1,6 @@
 ---
 - hosts: dellos9
-  connection: network_cli
+  connection: local
   gather_facts: no
 
   tasks:
