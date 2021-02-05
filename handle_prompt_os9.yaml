@@ -1,5 +1,5 @@
 ---
-- hosts: dellos9
+- hosts: leaf6a
   connection: local
   gather_facts: no
 
