@@ -6,9 +6,7 @@
   tasks:
   - name: "Get Dell EMC OS9 Show version"
     dellos9_command:
-      commands: ['config
-                  interface vlan 999
-                  end']
+      commands: ['show running config']
 #    register: show_ver
 
 #  - debug: var=show_ver
