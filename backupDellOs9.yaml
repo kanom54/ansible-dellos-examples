@@ -1,5 +1,5 @@
 ---
- - hosts: Leaf6A 
+ - hosts: leaf6a
    connection: network_cli
    gather_facts: no
 
