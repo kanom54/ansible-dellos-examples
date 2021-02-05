@@ -1,5 +1,5 @@
 ---
-- hosts: leaf6a
+- hosts: Rack6
   connection: local
   gather_facts: no
 
