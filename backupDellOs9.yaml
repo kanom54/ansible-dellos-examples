@@ -8,11 +8,11 @@
       dellos9_config:
           backup: true
           commands: ['do show run']
-          username: networking
-          password: N3t.4dm1n!
+#          username: networking
+#          password: N3t.4dm1n!
 #          port: 8422
-          auth_pass: 4dm1nC0nf
-          authorize: yes
+#         auth_pass: 4dm1nC0nf
+#          authorize: yes
           timeout: 120
           backup_options:
                dir_path: /home/ansible/ColoBackup
