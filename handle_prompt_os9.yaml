@@ -3,7 +3,8 @@
   connection: network_cli
   gather_facts: no
   
-     
+  
+- task:  
 - os9_config:
     lines:
      - config
