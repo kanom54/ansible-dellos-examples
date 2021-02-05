@@ -5,12 +5,12 @@
   
    
   tasks:  
- - name: "create vlan"
-   os9_config:
-    lines:
-     - config
-     - interface vlan 999
-     - end
+    - name: "create vlan"
+      os9_config:
+         lines:
+         - config
+         - interface vlan 999
+         - end
          
          
 #        - command: do copy running-config startup-config
