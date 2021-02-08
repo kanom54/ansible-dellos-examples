@@ -9,7 +9,7 @@
       backup: yes
   #    commands: ['show running-config']
       backup_options:
-        dir_path:  //tmp/awx_200_h2lz29ft/project/backup
+        dir_path:  /home
    # register: show_ver
 
   # - debug: var=show_ver
