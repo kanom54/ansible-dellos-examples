@@ -8,8 +8,8 @@
     dellos9_config:
       backup: yes
   #    commands: ['show running-config']
-  #    backup_options:
-  #       dir_path:  //home/ansible/ColoBackup
+      backup_options:
+         dir_path:  /etc/ansible/
    # register: show_ver
 
   # - debug: var=show_ver
