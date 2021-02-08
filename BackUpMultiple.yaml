@@ -1,0 +1,12 @@
+---
+- hosts: leaf6a,leaf6b
+  connection: local
+  gather_facts: no
+
+  tasks:
+  - name: "Retrieve Configuration"
+    dellos9_command:
+      commands: ['show running-config']
+    register: show_ver
+
+  - debug: var=show_ver
