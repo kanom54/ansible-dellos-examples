@@ -1,15 +1,12 @@
 ---
-- hosts: leafs
+- hosts: leaf6a,leaf6b
   connection: local
   gather_facts: no
 
   tasks:
-  - name: "Create Vlan"
-    dellos9_config:
-      lines:
-         - interface vlan 999
-         - test
-         
- #   register: show_ver
- 
- # - debug: var=show_ver
+  - name: "Retrieve Configuration"
+    dellos9_command:
+      commands: ['show running-config']
+    register: show_ver
+
+  - debug: var=show_ver
