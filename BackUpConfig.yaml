@@ -1,5 +1,5 @@
 ---
-- hosts: leaf6a,leaf6b
+- hosts: lan_r2
   connection: local
   gather_facts: no
 
