@@ -5,7 +5,7 @@
 
   tasks:
   - name: "Retrieve Configuration File"
-    dellos9_config:
+    dellos6_config:
       backup: yes
   #    commands: ['show running-config']
       backup_options:
