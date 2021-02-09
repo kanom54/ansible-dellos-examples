@@ -10,7 +10,7 @@
   #    commands: ['show running-config']
       backup_options:
         dir_path:  /home
-        filename: "{{ leaf6a }}.cfg<current-date>@<current-time>"
+        filename: "leaf6a.cfg<current-date>@<current-time>"
    # register: show_ver
 
   # - debug: var=show_ver
