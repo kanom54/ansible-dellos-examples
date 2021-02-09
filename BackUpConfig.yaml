@@ -1,5 +1,5 @@
 ---
-- hosts: wan15a,wan15b
+- hosts: wan15a,wan15b,wan11b,wan11a,wan10b,wan10a,spine4,spine3,leaf9b,leaf9a,leaf8b,leaf8a,leaf16b,leaf16a,leaf15b,leaf15a,leaf14b,leaf14a,leaf13b,leaf13a,leaf12b,leaf12a,leaf11b,leaf11a,leaf10b,leaf10a,idracr9,idracr8,idracr13,idracr12
   connection: local
   gather_facts: no
 
