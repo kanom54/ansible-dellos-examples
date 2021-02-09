@@ -1,5 +1,5 @@
 ---
-- hosts: lan_r2
+- hosts: wan15a,wan15b
   connection: local
   gather_facts: no
 
