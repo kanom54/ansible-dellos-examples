@@ -9,7 +9,7 @@
       backup: yes
   #    commands: ['show running-config']
       backup_options:
-        dir_path:  /172.20.16.172/home
+        dir_path:  //172.20.16.172/home
    #     filename: "leaf6a.cfg<current-date>@<current-time>"
    # register: show_ver
 
